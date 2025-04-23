@@ -1,5 +1,5 @@
 Package: FmdNspPred
-Title: R Package for Prediction of Foot-and-Mouth Disease Virus Exposure Using 2B NSP-ELISA Data.
+Title: R Package for Prediction of Foot and Mouth Disease Virus Exposure Using 2B NSP ELISA Data
 Version: 0.0.1
 Authors@R: 
     person("Bighneswar", "Barik", email = "132001bighneswar@gmail.com", role = c("aut", "cre"))
