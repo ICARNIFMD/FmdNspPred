@@ -1,11 +1,11 @@
 Package: FmdNspPred
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: R Package for Prediction of Foot-and-Mouth Disease Virus Exposure Using 2B NSP-ELISA Data.
+Version: 0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Bighneswar", "Barik", email = "132001bighneswar@gmail.com", role = c("aut", "cre"))
+    person ("Samarendra", "Das", email = "Samarendra.das@icar.org.in", role = c("aut", "cre"))
+Description: Foot-and-mouth disease (FMD) is a transboundary viral disease affecting cloven-hoofed animals and poses significant economic threats. Current non-structural protein (NSP)-ELISA diagnostic assays require empirically determined cutoff values, which reduces diagnostic accuracy. The FmdNspPred package provides a cutoff-independent logistic regression model for predicting FMD virus exposure in bovine serum samples based on absorbance readings from the 2B NSP-ELISA assay. This package enables veterinarians and researchers to perform accurate exposure classification of bovine samples using 2B NSP-ELISA data in a reproducible and scalable manner.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
