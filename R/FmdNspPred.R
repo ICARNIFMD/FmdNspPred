@@ -21,7 +21,6 @@ FmdNspPred <- function(input_data, Species = NULL) {
   sigmoid <- function(z) {
     return(1 / (1 + exp(-z)))
   }
-  }
   # Validate input_data
   if (!all(c("Sample.ID", "PP.value") %in% colnames(input_data))) {
     stop("Error: input_data must contain 'Sample.ID' and 'PP.value' columns.")
