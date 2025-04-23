@@ -21,9 +21,6 @@ FmdNspPred <- function(input_data, Species = NULL) {
   sigmoid <- function(z) {
     return(1 / (1 + exp(-z)))
   }
-  if (is.null(Species) || !Species %in% c("bovine", "goat", "buffalo", "sheep")) {
-    message("No species selected or invalid input. Defaulting to 'bovine'.")
-    Species <- "bovine"
   }
   # Validate input_data
   if (!all(c("Sample.ID", "PP.value") %in% colnames(input_data))) {
